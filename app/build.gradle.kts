@@ -47,6 +47,7 @@ android {
 dependencies {
 
 
+
     val hilt_version = "2.48.1"
     val lifecycle_version ="2.6.2"
     val retrofit_version ="2.9.0"
@@ -61,7 +62,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
 
     // Hilt
