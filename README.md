@@ -4,6 +4,13 @@
 
 The Weather App is an Android application that provides information about the weather in different cities around the world. The app displays a list of cities with their current temperature and allows users to view more detailed weather information and the location of the city on a map. Additionally, the app includes a notification service that shows the current temperature of the day at a specific time, using GPS to get the location.
 
+
+## Screen Shots
+<img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22.jpg" width="300">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(2).jpg" width="300">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(4).jpg" width="300">
+
+
+
+
 ## Features
 
 - **City List Screen**: Displays a list of cities with their current temperature.
@@ -36,3 +43,29 @@ The Weather App is an Android application that provides information about the we
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/weather-app.git
+2. Open the project in Android Studio.
+3. Build and run the project on an emulator or a physical device.
+
+## Usage
+
+1. Launch the app.
+2. View the list of cities with their current temperature.
+3. Click on a city to view more detailed weather information and see the location on the map.
+4. The app will send a notification with the current temperature at a specific time of the day.
+
+## API Keys
+
+- **OpenWeatherMap API**: Sign up at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) to get an API key.
+- **Google Maps API**: Follow the instructions at [Google Maps Platform](https://developers.google.com/maps/documentation/android-sdk/get-api-key) to get an API key.
+
+Add the API keys to the appropriate configuration files in the project.
+
+
+## Acknowledgements
+
+- [OpenWeatherMap](https://openweathermap.org/current)
+- [Google Maps](https://developers.google.com/maps/documentation)
+
+## Contact
+
+For any questions or inquiries, please contact [asikurcsegb@gmail.com].
