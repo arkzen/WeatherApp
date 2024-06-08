@@ -6,7 +6,7 @@ The Weather App is an Android application that provides information about the we
 
 
 ## Screen Shots
-<img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22.jpg" width="300">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(2).jpg" width="300">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(4).jpg" width="300">
+<img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22.jpg" width="230">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(2).jpg" width="230">      <img src="https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/weatherApp/photo_2024-06-09_01-38-22+(4).jpg" width="230">
 
 
 
