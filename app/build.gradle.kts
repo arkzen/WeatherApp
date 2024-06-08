@@ -4,6 +4,7 @@ plugins {
     id ("com.google.dagger.hilt.android")
     id("dagger.hilt.android.plugin")
     kotlin("kapt")
+    id("androidx.navigation.safeargs.kotlin")
 
 }
 
@@ -48,6 +49,7 @@ dependencies {
 
 
 
+    implementation(libs.play.services.location)
     val hilt_version = "2.48.1"
     val lifecycle_version ="2.6.2"
     val retrofit_version ="2.9.0"
@@ -65,11 +67,10 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 
-
     // Hilt
     implementation("com.google.dagger:hilt-android:$hilt_version")
     kapt("com.google.dagger:hilt-android-compiler:$hilt_version")
-
+    implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
 
     //Lifecycle
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version")
@@ -85,11 +86,5 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:$retrofit_version")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.12.0")
     implementation ("com.squareup.retrofit2:converter-scalars:$retrofit_version")
-
-    //Reflection
-    implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.10")
-
-    //SwipeRefreshlayout
-    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
 }
