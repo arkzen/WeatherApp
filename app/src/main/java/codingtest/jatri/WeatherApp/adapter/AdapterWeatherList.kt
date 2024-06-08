@@ -37,11 +37,11 @@ class AdapterWeatherList(val adapterOnClick: (cityItem:CityList) -> Unit): Recyc
         holder.binding.apply {
             tvWeatherLocation.text = weatherItem.name
           try {
-              tvWeatherStatus.text = weatherItem.weather?.get(0)?.description ?: ""
+              tvWeatherStatus.text = weatherItem.weather?.get(0)?.main ?: ""
           } catch (e:Exception){
               e.printStackTrace()
           }
-            tvProductCount.text = String.format("%d°C", (weatherItem.main?.temp?.minus(Constants.TEMPERATURE_IN_KELVIN))?.toInt())
+            tvTemp.text = String.format("%d°C", (weatherItem.main?.temp?.minus(Constants.TEMPERATURE_IN_KELVIN))?.toInt())
 
             root.setOnClickListener {
                 adapterOnClick.invoke(weatherItem)

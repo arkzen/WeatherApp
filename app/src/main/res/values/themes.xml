@@ -29,4 +29,14 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="SubTitleText.black" parent="text_regular">
+        <item name="android:textSize">@dimen/font14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SubTitleText.black.16" parent="text_black">
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 </resources>
