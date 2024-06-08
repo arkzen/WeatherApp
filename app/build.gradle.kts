@@ -5,6 +5,7 @@ plugins {
     id("dagger.hilt.android.plugin")
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
+    id("com.google.gms.google-services")
 
 }
 
@@ -50,6 +51,8 @@ dependencies {
 
 
     implementation(libs.play.services.location)
+    implementation(libs.firebase.messaging)
+    implementation(libs.androidx.hilt.common)
     val hilt_version = "2.48.1"
     val lifecycle_version ="2.6.2"
     val retrofit_version ="2.9.0"
@@ -89,5 +92,11 @@ dependencies {
 
     // Google Play services Maps
     implementation ("com.google.android.gms:play-services-maps:18.2.0")
+
+    //workmanager
+    implementation ("androidx.work:work-runtime-ktx:2.8.1")
+
+
+
 
 }
