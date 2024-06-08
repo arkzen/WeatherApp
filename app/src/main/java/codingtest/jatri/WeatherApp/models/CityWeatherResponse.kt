@@ -1,5 +1,7 @@
 package codingtest.jatri.WeatherApp.models
 
+import java.io.Serializable
+
 data class CityWeatherResponse(
     val cod: String? = "",
     val count: Int? = 0,
@@ -20,7 +22,7 @@ data class CityList(
     val sys: Sys? = Sys(),
     val weather: List<Weather?>? = listOf(),
     val wind: Wind? = Wind()
-)
+) : Serializable
 
 data class Clouds(
     val all: Int? = 0

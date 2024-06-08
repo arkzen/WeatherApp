@@ -9,10 +9,25 @@
         android:id="@+id/cityListFragment"
         android:name="codingtest.jatri.WeatherApp.ui.CityListFragment"
         android:label="fragment_city_list"
-        tools:layout="@layout/fragment_city_list" />
+        tools:layout="@layout/fragment_city_list">
+        <action
+            android:id="@+id/action_cityListFragment_to_cityLocationFragment"
+            app:destination="@id/cityLocationFragment">
+            <argument
+                android:name="cityItem"
+                app:argType="codingtest.jatri.WeatherApp.models.CityList"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
     <fragment
         android:id="@+id/cityLocationFragment"
         android:name="codingtest.jatri.WeatherApp.ui.CityLocationFragment"
         android:label="fragment_city_location"
-        tools:layout="@layout/fragment_city_location" />
+        tools:layout="@layout/fragment_city_location">
+        <argument
+            android:name="cityItem"
+            app:argType="codingtest.jatri.WeatherApp.models.CityList"
+            app:nullable="false" />
+    </fragment>
 </navigation>
